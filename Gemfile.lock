@@ -1,0 +1,118 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    ast (2.2.0)
+    bcrypt (3.1.11)
+    bcrypt-ruby (3.1.5)
+      bcrypt (>= 3.1.3)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    cvss (0.99.0)
+    data_mapper (1.2.0)
+      dm-aggregates (~> 1.2.0)
+      dm-constraints (~> 1.2.0)
+      dm-core (~> 1.2.0)
+      dm-migrations (~> 1.2.0)
+      dm-serializer (~> 1.2.0)
+      dm-timestamps (~> 1.2.0)
+      dm-transactions (~> 1.2.0)
+      dm-types (~> 1.2.0)
+      dm-validations (~> 1.2.0)
+    data_objects (0.10.17)
+      addressable (~> 2.1)
+    dawnscanner (1.6.2)
+      cvss
+      data_mapper
+      dm-sqlite-adapter
+      haml
+      justify
+      logger-colors
+      ptools
+      ruby_parser
+      sqlite3
+      sys-uname
+      terminal-table
+    dm-aggregates (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-constraints (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-core (1.2.1)
+      addressable (~> 2.3)
+    dm-do-adapter (1.2.0)
+      data_objects (~> 0.10.6)
+      dm-core (~> 1.2.0)
+    dm-migrations (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-serializer (1.2.2)
+      dm-core (~> 1.2.0)
+      fastercsv (~> 1.5)
+      json (~> 1.6)
+      json_pure (~> 1.6)
+      multi_json (~> 1.0)
+    dm-sqlite-adapter (1.2.0)
+      dm-do-adapter (~> 1.2.0)
+      do_sqlite3 (~> 0.10.6)
+    dm-timestamps (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-transactions (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-types (1.2.2)
+      bcrypt-ruby (~> 3.0)
+      dm-core (~> 1.2.0)
+      fastercsv (~> 1.5)
+      json (~> 1.6)
+      multi_json (~> 1.0)
+      stringex (~> 1.4)
+      uuidtools (~> 2.1)
+    dm-validations (1.2.0)
+      dm-core (~> 1.2.0)
+    do_sqlite3 (0.10.17)
+      data_objects (= 0.10.17)
+    fastercsv (1.5.5)
+    ffi (1.9.10)
+    haml (4.0.7)
+      tilt
+    iniparse (1.4.2)
+    json (1.8.3)
+    json_pure (1.8.3)
+    justify (1.0.2)
+    logger-colors (1.0.0)
+    multi_json (1.11.2)
+    overcommit (0.32.0)
+      childprocess (~> 0.5.8)
+      iniparse (~> 1.4)
+    parser (2.3.0.6)
+      ast (~> 2.2)
+    powerpack (0.1.1)
+    ptools (1.3.3)
+    rainbow (2.1.0)
+    rubocop (0.38.0)
+      parser (>= 2.3.0.6, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.7.5)
+    ruby_parser (3.8.1)
+      sexp_processor (~> 4.1)
+    sexp_processor (4.7.0)
+    sqlite3 (1.3.11)
+    stringex (1.5.1)
+    sys-uname (1.0.2)
+      ffi (>= 1.0.0)
+    terminal-table (1.5.2)
+    tilt (2.0.2)
+    unicode-display_width (1.0.2)
+    uuidtools (2.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dawnscanner
+  overcommit
+  rubocop
+
+BUNDLED WITH
+   1.11.2
