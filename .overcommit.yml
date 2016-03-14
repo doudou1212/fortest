@@ -22,6 +22,7 @@ PreCommit:
     enabled: true
     on_warn: fail # Treat all warnings as failures
     exclude:
+      - '.git-hooks/*'
       - '.git-hooks/*/*'
   TrailingWhitespace:
     enabled: true

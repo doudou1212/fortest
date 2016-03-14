@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+  - '.git-hooks/*'
+  - '.git-hooks/*/*'
+Documentation:
+  Enabled: false
+Style/Encoding:
+  Enabled: false
+Style/SymbolLiteral:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
