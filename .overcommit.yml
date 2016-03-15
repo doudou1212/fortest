@@ -24,7 +24,6 @@ PreCommit:
     Exclude:
       - '**/.git-hooks/*'
       - '**/.git-hooks/**/*'
-      - 'hello.rb'
   TrailingWhitespace:
     enabled: true
     Exclude:
