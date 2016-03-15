@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -ex
-echo "fsfss"
+echo "set -ex"
 dawn -z .
+echo "after dawn"
 RESULT=$?
 echo $RESULT
 [ $RESULT -ne 0 ] && exit 1
