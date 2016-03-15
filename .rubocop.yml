@@ -1,8 +1,13 @@
 AllCops:
-  Include:
-  - 'hello.rb'
+#  Include:
+#  - 'hello.rb'
   Exclude:
   - 'Gemfile'
+  - '.git_hooks/**/*'
+  - '.idea'
+  - 'buildtasks/*'
+  - 'buildtasks/**/*'
+  - 'hello.rb'
 Documentation:
   Enabled: false
 Style/Encoding:
