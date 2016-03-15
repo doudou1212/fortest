@@ -5,4 +5,3 @@ group :development do
   gem 'overcommit'
   gem 'dawnscanner', require: false
 end
-

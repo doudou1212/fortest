@@ -21,22 +21,22 @@ PreCommit:
   RuboCop:
     enabled: true
     on_warn: fail # Treat all warnings as failures
-    exclude:
-      - '.git-hooks/*'
-      - '.git-hooks/*/*'
+    Exclude:
+      - '**/.git-hooks/*'
+      - '**/.git-hooks/**/*'
   TrailingWhitespace:
     enabled: true
-    exclude:
-      - 'buildtasks/*'
-      - 'buildtasks/*/*'
+    Exclude:
+      - '**/buildtasks/*'
+      - '**/buildtasks/**/*'
   ALL:
     problem_on_unmodified_line: warn
     requires_files: true
     required: false
     quiet: false
 PostCheckout:
- ALL: # Special hook name that customizes all hooks of this type
-  quiet: true # Change all post-checkout hooks to only display output on failure
+ #ALL: # Special hook name that customizes all hooks of this type
+  #quiet: true # Change all post-checkout hooks to only display output on failure
 
  IndexTags:
    enabled: true # Generate a tags file with `ctags` each time HEAD changes

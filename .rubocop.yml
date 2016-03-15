@@ -1,7 +1,8 @@
 AllCops:
+  Include:
+  - 'hello.rb'
   Exclude:
-  - '.git-hooks/*'
-  - '.git-hooks/*/*'
+  - 'Gemfile'
 Documentation:
   Enabled: false
 Style/Encoding:
