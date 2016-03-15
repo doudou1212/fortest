@@ -16,13 +16,14 @@
 # Uncomment the following lines to make the configuration take effect.
 verify_signatures: false
 PreCommit:
-#  StaticSecurityScanner:
-#    enabled: true
+  StaticSecurityScanner:
+    enabled: true
   RuboCop:
     enabled: true
     on_warn: fail # Treat all warnings as failures
     Exclude:
       - '**/.git-hooks/*'
+      - '**/.git-hooks/**/*'
       - '**/.git-hooks/**/*'
   TrailingWhitespace:
     enabled: true
