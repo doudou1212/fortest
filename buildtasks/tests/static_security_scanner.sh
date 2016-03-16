@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 echo "set -ex"
-dawn -z .
+dawn -s -z .
 echo "after dawn"
 RESULT=$?
 echo $RESULT
