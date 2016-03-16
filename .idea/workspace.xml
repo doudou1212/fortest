@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="624e33a6-a958-4ea8-9509-22317b799576" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.overcommit.yml" afterPath="$PROJECT_DIR$/.overcommit.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rubocop.yml" afterPath="$PROJECT_DIR$/.rubocop.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
     <ignored path="fortest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +47,8 @@
       <file leaf-file-name=".overcommit.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.overcommit.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14431934">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.39201638">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -134,8 +132,8 @@
         <option value="$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb" />
         <option value="$PROJECT_DIR$/buildtasks/tests/static_security_scanner.sh" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/.overcommit.yml" />
         <option value="$PROJECT_DIR$/.rubocop.yml" />
+        <option value="$PROJECT_DIR$/.overcommit.yml" />
       </list>
     </option>
   </component>
@@ -826,12 +824,12 @@
       <workItem from="1457954760312" duration="5076000" />
       <workItem from="1458041718220" duration="2820000" />
       <workItem from="1458089831816" duration="15000" />
-      <workItem from="1458109880108" duration="3111000" />
+      <workItem from="1458109880108" duration="3153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11022000" />
+    <option name="totallyTimeSpent" value="11064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
@@ -1063,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.overcommit.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14431934">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.39201638">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
