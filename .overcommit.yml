@@ -26,16 +26,16 @@ PreCommit:
       - '**/.git-hooks/**/*'
       - '**/.git-hooks/**/*'
       - 'hello.rb'
-  TrailingWhitespace:
-    enabled: true
-    Exclude:
-      - '**/buildtasks/*'
-      - '**/buildtasks/**/*'
-  ALL:
-    problem_on_unmodified_line: warn
-    requires_files: true
-    required: false
-    quiet: false
+#  TrailingWhitespace:
+#    enabled: true
+#    Exclude:
+#      - '**/buildtasks/*'
+#      - '**/buildtasks/**/*'
+#  ALL:
+#    problem_on_unmodified_line: warn
+#    requires_files: true
+#    required: false
+#    quiet: false
 PostCheckout:
  #ALL: # Special hook name that customizes all hooks of this type
   #quiet: true # Change all post-checkout hooks to only display output on failure
