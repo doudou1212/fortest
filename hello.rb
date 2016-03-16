@@ -1,1 +1,1 @@
-puts "hdsffsdfsd dfddffdell  o."
+puts 'hdfsdfsd dfddffdelo.'

@@ -7,7 +7,6 @@ AllCops:
   - '.idea'
   - 'buildtasks/*'
   - 'buildtasks/**/*'
-  - 'hello.rb'
 Documentation:
   Enabled: false
 Style/Encoding:
