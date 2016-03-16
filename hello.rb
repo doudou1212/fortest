@@ -1,1 +1,4 @@
-puts 'hdfsdfsd dfddffdelo.'
+require 'sinatra'
+get '/hi' do
+    "hello world!"
+end

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624e33a6-a958-4ea8-9509-22317b799576" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb" afterPath="$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.overcommit.yml" afterPath="$PROJECT_DIR$/.overcommit.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rubocop.yml" afterPath="$PROJECT_DIR$/.rubocop.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.rb" afterPath="$PROJECT_DIR$/hello.rb" />
     </list>
     <ignored path="fortest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".overcommit.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".overcommit.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.overcommit.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.4370522">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -78,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static_security_scanner.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="static_security_scanner.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.067553736">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,8 +132,8 @@
         <option value="$PROJECT_DIR$/.git_hooks/pre_commit/rubo_cop.rb" />
         <option value="$PROJECT_DIR$/buildtasks/tests/static_security_scanner.sh" />
         <option value="$PROJECT_DIR$/.rubocop.yml" />
-        <option value="$PROJECT_DIR$/.overcommit.yml" />
         <option value="$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb" />
+        <option value="$PROJECT_DIR$/.overcommit.yml" />
       </list>
     </option>
   </component>
@@ -828,12 +824,12 @@
       <workItem from="1457954760312" duration="5076000" />
       <workItem from="1458041718220" duration="2820000" />
       <workItem from="1458089831816" duration="15000" />
-      <workItem from="1458109880108" duration="1450000" />
+      <workItem from="1458109880108" duration="2437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9361000" />
+    <option name="totallyTimeSpent" value="10348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
@@ -1055,18 +1051,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.overcommit.yml">
+    <entry file="file://$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.git_hooks/pre_commit/static_security_scanner.rb">
+    <entry file="file://$PROJECT_DIR$/.overcommit.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067553736">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.4370522">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>

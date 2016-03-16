@@ -18,19 +18,19 @@ verify_signatures: false
 PreCommit:
   StaticSecurityScanner:
     enabled: true
-  RuboCop:
-    enabled: true
-    on_warn: fail # Treat all warnings as failures
-    Exclude:
-      - '**/.git-hooks/*'
-      - '**/.git-hooks/**/*'
-      - '**/.git-hooks/**/*'
-      - 'hello.rb'
-  TrailingWhitespace:
-    enabled: true
-    Exclude:
-      - '**/buildtasks/*'
-      - '**/buildtasks/**/*'
+#  RuboCop:
+#    enabled: true
+#    on_warn: fail # Treat all warnings as failures
+#    Exclude:
+#      - '**/.git-hooks/*'
+#      - '**/.git-hooks/**/*'
+#      - '**/.git-hooks/**/*'
+#      - 'hello.rb'
+#  TrailingWhitespace:
+#    enabled: true
+#    Exclude:
+#      - '**/buildtasks/*'
+#      - '**/buildtasks/**/*'
   ALL:
     problem_on_unmodified_line: warn
     requires_files: true
